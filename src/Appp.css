@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+    background-color: beige;
+    flex-direction:row;
+}
+
+.component1{
+    width:35%
+}
+.component12{
+    width:65%
+}

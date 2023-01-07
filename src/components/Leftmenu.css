@@ -1,0 +1,56 @@
+.outerWrapper{
+    display: flex;
+    flex-direction: row;
+    width:33%;
+    background-color: aquamarine;
+
+}
+
+.verticalColumnnOne{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 27, 53);
+    width:16%;
+    height:720px;
+}
+.box{
+    width:60%;
+    height:6%;
+    margin:8px 16px;
+    background-color: rgb(231, 131, 218);
+}
+
+.verticalColumnTwo{
+    width:83%;
+    background-color: aliceblue;
+}
+.imageWrapper{
+    width:15px;
+    height:15px;
+}
+.inputBox{
+    width:90%;
+    margin:4px 7px;
+}
+
+.componentTwo{
+    margin:4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyCard{
+    margin:auto;
+    width:95%;
+    height:40px;
+    box-shadow: 0px 0px 3px 1px rgb(148, 168, 136);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: small;
+    margin-bottom:6px ;
+}
+
+.spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
