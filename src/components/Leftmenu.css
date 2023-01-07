@@ -1,7 +1,7 @@
 .outerWrapper{
     display: flex;
     flex-direction: row;
-    width:33%;
+    width:101%;
     background-color: aquamarine;
 
 }

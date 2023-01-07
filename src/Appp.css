@@ -1,12 +1,13 @@
 .App{
     display: flex;
-    background-color: beige;
-    flex-direction:row;
+    flex-direction: row;
 }
-
-.component1{
-    width:35%
+.leftPannel{
+    width:35%;
+    height:720px;
+    background-color: aqua;
 }
-.component12{
-    width:65%
+.rightPannel{
+    width:65%;
+    background-color: rgb(237, 245, 245);
 }

@@ -1,10 +1,41 @@
 .userPannel{
-    margin-left:34%;
     top:-600px;
-    background-color: rgb(240, 221, 221);
+    background-color: rgb(192, 174, 174);
+    height:25px;
+    display: flex;
+    flex-direction: column;
 }
 .userName{
     text-align: right;
-    align-items: right;
-    
+}
+.imageWrapperr{
+    width:25px;
+    height:25px;
+}
+.detailswrapper{
+    margin-top:7px;
+    width:50%;
+    display:  flex;
+    flex-direction: column;
+}
+.detailsPannel{
+    margin:7px 4px;
+    background-color: rgb(254, 255, 255);
+    padding:5px;
+    border-radius: 4px;
+}
+.detailsTitle{
+    font-size: small;
+    color: rgb(71, 72, 73);
+    display: flex;
+    justify-content: space-between;
+}
+.emailsWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.detailsLinks{
+    font-size: small;
+    color: rgb(71, 72, 73);
 }
