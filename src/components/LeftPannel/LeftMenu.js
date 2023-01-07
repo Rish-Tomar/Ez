@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Leftmenu.css'
-import { companies } from '../assets/companies'
+import { companies } from '../../assets/companies'
 function LeftMenu() {
    
   const [menuItems,setMenuItems]=useState(7)
@@ -23,7 +23,7 @@ function LeftMenu() {
   return (
     <div className='outerWrapper'>
         <div className='verticalColumnnOne'>
-            <img alt="Companny Logo"/>
+            <img src='https://cdn-icons-png.flaticon.com/512/5835/5835688.png' alt="Companny Logo"/>
             <div className='box'>
                 
             </div>

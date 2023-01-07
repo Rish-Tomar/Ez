@@ -1,6 +1,6 @@
 
 import './Appp.css';
-import LeftMenu from './components/LeftMenu';
+import LeftMenu from './components/LeftPannel/LeftMenu';
 import MainPage from './components/MainComponnent/MainPage';
 
 function App() {

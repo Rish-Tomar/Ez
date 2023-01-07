@@ -1,0 +1,31 @@
+.entitiesWrapper{
+    width:99%;
+    margin:8px;
+    background-color: white;
+}
+.firstRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.plus_sign{
+    width:30px;
+    height:30px;
+}
+.spacebetweenBilling{
+    display: flex;
+    justify-content: space-between;
+}
+.smallFontt{
+    font-size:small;
+    color:grey
+}
+.smallFont{
+    font-size: small;
+}
+.billingDiv{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(208, 234, 250);
+}

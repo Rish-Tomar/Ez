@@ -1,11 +1,12 @@
 import React from 'react'
+import EntitiesPannel from './EntitiesPannel'
 import './mainpage.css'
 function MainPage() {
   return (
     <div>
         <div className='userPannel'>
-           <span className='userName'>Hi, Abhishek</span>
-           <image src='' alt ="user image"/>
+           <span className='userName'>Hi, User</span>
+           <image alt ="user image"/>
 
         </div>
         <div className='detailsPannel'>
@@ -32,7 +33,7 @@ function MainPage() {
                 <span>unavailable</span>
                 <hr/>
             </div>
-            <div className='detailsTitle'>
+            <div className='detailsLinks'>
                 <span>Entities</span>
                 <span>Invoice Codes</span>
                 <span>Users</span>
@@ -40,7 +41,7 @@ function MainPage() {
 
         </div>
 
-        {/* user details pannel */}
+        <EntitiesPannel/>
 
         {/* show entities */}
 
